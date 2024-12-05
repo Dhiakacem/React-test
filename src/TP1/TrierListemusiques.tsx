@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
@@ -17,7 +17,7 @@ export function TrierListeMusiques({ pieces, onTrier }: TrierListeMusiquesProps)
 
     /* const [filtrerPieces, setFiltrerPieces] = useState(pieces);*/
   //const[trierPieces , setTrierListe] = useState(pieces);
-    const [ordreTri, setOrdreTri] = useState<'asc' | 'desc'>('asc');
+   /* const [ordreTri, setOrdreTri] = useState<'asc' | 'desc'>('asc');
     const [critereTrie, setCritereTrie] = useState<'titre' | 'artiste' | 'categorie'>('titre');
 
     const comparer = (a: PieceMusicale, b: PieceMusicale): number => {
@@ -79,4 +79,4 @@ export function TrierListeMusiques({ pieces, onTrier }: TrierListeMusiquesProps)
 
         </Container>
     )
-}
+} */

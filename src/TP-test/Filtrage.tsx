@@ -3,7 +3,7 @@ import { Container, Table } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { PieceMusicale } from '../TP1/pieces';
-import { AficherListeMusique } from '../TP1/AfficherListeMusique';
+import { AfficherListeMusique } from '../TP1/AfficherListeMusique';
 
 export interface FiltrageProps {
     pieces: PieceMusicale[];
@@ -56,7 +56,7 @@ export function Filtrage({ pieces }: FiltrageProps) {
                     />
                 </Col>
             </Row>
-           <AficherListeMusique pieces={filteredPieces} />
+           <AfficherListeMusique pieces={filteredPieces} />
         </Container> 
        
     );

@@ -1,0 +1,45 @@
+.switch-btn {
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.switch-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+  
+.switch-btn.asc {
+    background-color: #4caf50;
+}
+  
+.switch-btn.desc {
+    background-color: #f44336;
+}
+  
+.switch-text {
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+  
+.icon {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+  
+.switch-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(75, 196, 80, 0.5);
+}
